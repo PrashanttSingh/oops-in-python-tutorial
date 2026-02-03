@@ -33,7 +33,7 @@ class logogram:
       elif user_input =='4':
           print('Wait! Getting things ready for you')
           time.sleep
-          pass
+          self.message()
       else:
           time.sleep(0.5)
           print('Thankyou for using logogram,see you soon')
@@ -74,6 +74,18 @@ class logogram:
        input('OOPS! look like your are not signed in😶')
      print('\n') 
      self.menu() 
+    
+  def message(self):
+    if self.login==True:
+      time.sleep(1)
+      input('enter the person username to send message to them-')
+      time.sleep(.5)
+      input('enter you message-')
+    else:
+      print('OOPS!look like you have not signed in')
+    print('\n')
+    self.menu()    
+        
      
          
 obj=logogram()        
