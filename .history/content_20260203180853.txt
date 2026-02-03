@@ -5,7 +5,4 @@
 3.why Python is called object oriented programming?-because everything in python is an object or attribute etc
 4.Advantages of oops in python....
   >You can create own datatype in it.
-  >Code reuse-ablity 
-  >debug
-  >easy to colab
-  
+  > 

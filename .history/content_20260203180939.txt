@@ -7,5 +7,4 @@
   >You can create own datatype in it.
   >Code reuse-ablity 
   >debug
-  >easy to colab
   
