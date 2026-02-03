@@ -29,7 +29,7 @@ class logogram:
       elif user_input =='3':
           print('Wait! Getting things ready for you')
           time.sleep(2)
-          pass
+          self.my_post()
       elif user_input =='4':
           print('Wait! Getting things ready for you')
           time.sleep
@@ -64,4 +64,16 @@ class logogram:
     print('\n') 
     time.sleep(4) 
     self.menu()  
+    
+  def my_post(self):
+     if self.login==True:
+       time.sleep(1)
+       input('plese write your post Description-')
+     else:
+       time.sleep(1)
+       input('OOPS! look like your are not signed in😶')
+     print('\n') 
+     self.menu() 
+     
+         
 obj=logogram()        
