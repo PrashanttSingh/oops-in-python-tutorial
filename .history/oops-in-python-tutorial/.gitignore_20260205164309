@@ -1,9 +1,0 @@
-.history
-node_modules/
-__pycache__/
-*.pyc
-.vscode/
-*.log
-.env
-
-
