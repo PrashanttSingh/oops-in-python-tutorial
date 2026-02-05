@@ -1,0 +1,18 @@
+1. class and object example
+2.class as a data/attribute and function/ methods
+ >code walkthrough
+ >attributes are called by itself and methods are called manually
+3.why Python is called object oriented programming?-because everything in python is an object or attribute etc
+4.Advantages of oops in python....
+  >You can create own datatype in it.
+  >Code reuse-ablity 
+  >debug
+  >easy to colab
+5.End to end project(logogram-class)  
+  >function vs method
+  >dunder method or magic method in python
+  >self
+  
+  >encapsulation
+  >getter and setter
+  >static method
