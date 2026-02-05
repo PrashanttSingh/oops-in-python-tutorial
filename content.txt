@@ -8,4 +8,11 @@
   >Code reuse-ablity 
   >debug
   >easy to colab
-  
+5.End to end project(logogram-class)  
+  >function vs method
+  >dunder method or magic method in python
+  >self
+  >we can create attribute from outside class as well
+  >encapsulation
+  >getter and setter
+  >static method
