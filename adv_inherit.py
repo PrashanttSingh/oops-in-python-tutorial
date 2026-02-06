@@ -37,27 +37,51 @@
 # child.does()
 #-----------------------------------------------------------------------------------
 #hiererical inheritence
-class parent:
+# class parent:
+#   def __init__(self,name):
+#     self.name=name
+
+#   def hii(self):
+#     print(f'my name is {self.name}')
+
+# class child1(parent):
+#   def play(self):
+#     print(f'{self.name} love to play ')
+
+# class child2(parent):
+#   def study(self):
+#     print(f'{self.name} loves to study')
+
+# child1=child1('bob')
+# child2=child2('perry')
+
+# child1.hii()    #my name is bob
+# child1.play()   #bob love to play
+# print('--------')
+# child2.hii()    #my name is perry
+# child2.study()  #perry loves to study
+#--------------------------------------------------------------------------------------
+
+class a:
   def __init__(self,name):
     self.name=name
 
-  def hii(self):
-    print(f'my name is {self.name}')
+  def hlo(self):
+    print(f'hello from a ,{self.name}')
 
-class child1(parent):
-  def play(self):
-    print(f'{self.name} love to play ')
+class b(a):
+  def hlo(self):
+    print(f'hello from b ,{self.name}') 
+    super().hlo()
+class c(a):
+  def hlo(self):
+    print(f'hello from c{self.name}')
+    super().hlo()
 
-class child2(parent):
-  def study(self):
-    print(f'{self.name} loves to study')
+class d(b,c):
+  def hlo(self):
+    print(f'hello from d,{self.name}')
+    super().hlo()
 
-child1=child1('bob')
-child2=child2('perry')
-
-child1.hii()    #my name is bob
-child1.play()   #bob love to play
-print('--------')
-child2.hii()    #my name is perry
-child2.study()  #perry loves to study
-#--------------------------------------------------------------------------------------
+d=d('poko')
+d.hlo()
