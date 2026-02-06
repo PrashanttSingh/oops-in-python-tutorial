@@ -62,27 +62,56 @@
 # child2.study()  #perry loves to study
 #--------------------------------------------------------------------------------------
 #mutipe inheritence (diamond)
-class a:
+# class a:
+#   def __init__(self,name):
+#     self.name=name
+
+#   def hlo(self):
+#     print(f'hello from a ,{self.name}')
+
+# class b(a):
+#   def hlo(self):
+#     print(f'hello from b ,{self.name}') 
+#     super().hlo()
+# class c(a):
+#   def hlo(self):
+#     print(f'hello from c{self.name}')
+#     super().hlo()
+
+# class d(b,c):
+#   def hlo(self):
+#     print(f'hello from d,{self.name}')
+#     super().hlo()
+
+# d=d('poko')
+# d.hlo()
+#-----------------------------------------------------------------------------------
+
+#hybrid  inheritence 
+class animal:
   def __init__(self,name):
     self.name=name
 
-  def hlo(self):
-    print(f'hello from a ,{self.name}')
+  def moves(self):
+    print(f'{self.name} moves fast....')
 
-class b(a):
-  def hlo(self):
-    print(f'hello from b ,{self.name}') 
-    super().hlo()
-class c(a):
-  def hlo(self):
-    print(f'hello from c{self.name}')
-    super().hlo()
+class mammel(animal):
+  def feed(self):
+    print(f'mammels feed milk to {self.name}')
 
-class d(b,c):
-  def hlo(self):
-    print(f'hello from d,{self.name}')
-    super().hlo()
+class bird(animal):
+  def fly(self):
+    print(f'bird fly in the sky for {self.name}') 
 
-d=d('poko')
-d.hlo()
-#--------------------------------------------------------
+class bat(mammel,bird):
+  def noctural(self):
+    print(f'bat noctural at night because of {self.name}')
+
+bat=bat('bruce')
+bat.moves()
+bat.noctural()
+bat.feed()
+bat.fly()
+    
+    
+#-----------------------------------------------------------------------------------
