@@ -61,7 +61,7 @@
 # child2.hii()    #my name is perry
 # child2.study()  #perry loves to study
 #--------------------------------------------------------------------------------------
-
+#mutipe inheritence (diamond)
 class a:
   def __init__(self,name):
     self.name=name
@@ -85,3 +85,4 @@ class d(b,c):
 
 d=d('poko')
 d.hlo()
+#--------------------------------------------------------
