@@ -1,2 +1,0 @@
-1. class and object example
-2.class as a data/attribute and function/ method

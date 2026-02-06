@@ -13,6 +13,18 @@
   >dunder method or magic method in python
   >self
   >we can create attribute from outside class as well
+  
   >encapsulation
   >getter and setter
   >static method
+  >instance method 
+  >class method
+
+6.Inheritence
+  >inheritence code example
+  >why inheritence is needed?? (code reuseablity,parent class has no access to child class)
+  >what get inherited?? (constructor,non-private attributes,non-private methods)
+  >constructor overloading and method overloading
+  >super keyword (can be used only inside the class,cannot access attributes/variables,used only inside child class )
+  >Types of inheritence.  1.single inheritence 2.multilevel  3.heirarchical 4.Multiple(diamond problem) 5.hybrid
+  >  
